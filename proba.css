@@ -1,0 +1,39 @@
+#probatzen {
+    width: 200px;
+    height: 200px;
+}
+
+header{
+    text-align: center;  
+}
+
+h2, h1, h3, section, .p-kanpuan, aside, form{
+    border: 2px solid;
+    color:rgb(0, 0, 0);
+    padding: 20px;
+}
+
+h2{
+    font-weight: normal;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+section {
+    flex: 4;
+    display: flex;       
+    justify-content: flex-start;
+}
+
+aside {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    padding: 30px;
+}
